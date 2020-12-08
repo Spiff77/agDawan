@@ -12,7 +12,7 @@ export class Client extends Person implements IClient<number>{
     }
 
   constructor(firstName: string, lastName: string, active?: boolean, ca?: number) {
-    super(firstName, lastName);
+    super(firstName, lastName, active);
     this.ca = ca || this.ca;
   }
 

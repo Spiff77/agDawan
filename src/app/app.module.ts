@@ -1,14 +1,21 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
+import {NgModule} from '@angular/core';
+import {AppComponent} from './app.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {FormsModule} from '@angular/forms';
+import { MainParentComponent } from './main-parent/main-parent.component';
+import { ChildrenComponent } from './children/children.component';
+import { SecondaryParentComponent } from './secondary-parent/secondary-parent.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainParentComponent,
+    ChildrenComponent,
+    SecondaryParentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
