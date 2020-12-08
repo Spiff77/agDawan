@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainParentComponent implements OnInit {
 
+  firstname = 'Thomas';
+  anotherfirstname = 'Simon';
+
   constructor() { }
 
   ngOnInit(): void {

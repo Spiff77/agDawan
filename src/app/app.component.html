@@ -1,17 +1,4 @@
 <div>
-<h1>Hello to my app</h1>
+  <h1>Hello to my app</h1>
   <app-main-parent></app-main-parent>
-  <button (click)="client1.active = !client1.active">Toggle client</button>
-  <ul [hidden]="!client1.active">
-    <li class="nav">{{client1.firstName}}</li>
-    <li class="nav">{{client1.lastName}}</li>
-    <li class="nav">{{client1.active}}</li>
-  </ul><br>
-
-  <button (click)="client2.active = !client2.active">Toggle client</button>
-  <ul [hidden]="!client2.active">
-    <li class="nav">{{client2.firstName}}</li>
-    <li class="nav">{{client2.lastName}}</li>
-    <li class="nav">{{client2.active}}</li>
-  </ul>
 </div>
